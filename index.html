@@ -78,6 +78,12 @@ header{position:relative;min-height:100vh;display:flex;flex-direction:column;jus
   <div class="hero-image">
   <img src="./IMG_3219.jpg" class="hero-photo" alt="Parag Daharwal">
 </div>
+  .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
 .hero-photo-frame{position:absolute;right:5.2vw;bottom:7.2vh;width:clamp(250px,25vw,390px);aspect-ratio:4/5;border:1px solid rgba(183,210,183,.2);border-radius:10px;z-index:1;transform:translate(10px,10px)}
 .scroll-ind{position:absolute;right:5vw;bottom:2.5rem;z-index:2;display:flex;flex-direction:column;align-items:center;gap:7px;opacity:0;animation:fadeIn 1s 1.6s ease forwards}
 .scroll-ind span{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.2em;color:rgba(157,196,159,.35);text-transform:uppercase;writing-mode:vertical-rl}
